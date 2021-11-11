@@ -1,0 +1,35 @@
+body {
+  background-color: #c9dcf7; }
+
+header {
+  text-align: center; }
+  header h1 {
+    font-size: 3em; }
+
+main {
+  display: flex;
+  align-items: start; }
+  main .reserve-lists {
+    width: 60%;
+    list-style: none;
+    margin: 0; }
+    main .reserve-lists .reserve-list {
+      margin-bottom: 10px;
+      background-color: beige;
+      border-radius: 20px;
+      display: inline-flex;
+      align-items: center;
+      padding: 20px; }
+      main .reserve-lists .reserve-list .time-status {
+        padding: 10px;
+        width: 40px; }
+      main .reserve-lists .reserve-list .btn-area {
+        margin-left: 200px; }
+  main .detail-info {
+    width: 40%;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    padding: 20px; }
+    main .detail-info .title {
+      text-align: center;
+      font-size: 1.5em; }

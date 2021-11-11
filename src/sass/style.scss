@@ -1,0 +1,65 @@
+body{
+    background-color: #c9dcf7
+}
+
+header{
+    text-align: center;
+    h1{
+        font-size: 3em;
+    }
+}
+
+main{
+    display: flex;
+    align-items: start;
+    .reserve-lists{
+        width: 60%;
+        list-style: none;
+        margin: 0;
+        .reserve-list{
+            margin-bottom: 10px;
+            background-color: beige;
+            border-radius: 20px;
+            display: inline-flex;
+            align-items: center;
+            padding: 20px;
+            .time-status{
+                padding:10px;
+                width: 40px;
+    
+            }
+            .info-area{
+                .name-area{
+    
+                }
+                .person-area{
+        
+                }
+                .menu-area{
+        
+                }
+            }
+           
+            .btn-area{
+                margin-left: 200px;
+            }
+        }
+    }
+    
+    .detail-info{
+        width: 40%;
+        background-color: blanchedalmond;
+        border-radius: 20px;
+        padding: 20px;
+        .title{
+            text-align: center;
+            font-size: 1.5em;
+        }
+        .reserve-info{
+           
+        }
+        .customer-info{
+
+        }
+    }
+}
