@@ -4,11 +4,11 @@
 
 # react project 실행 방법
 
-`git clone https://github.com/sunnykim91/tabling-assign.git`
-`cd tabling-assign`
-`cd tabling`
-`npm install`
-`yarn start`
++ `git clone https://github.com/sunnykim91/tabling-assign.git`
++ `cd tabling-assign`
++ `cd tabling`
++ `npm install`
++ `yarn start`
 
 # 사용 기술
 
